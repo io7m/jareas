@@ -11,6 +11,13 @@
     <a:id>0</a:id>
     <a:updated>2015-11-28T00:00:00Z</a:updated>
     <a:published>2015-11-28T00:00:00Z</a:published>
+    <a:title>io7m-jareas 0.2.0 released</a:title>
+    <a:content type="text"> io7m-jareas 0.2.0 released </a:content>
+  </a:entry>
+  <a:entry>
+    <a:id>1</a:id>
+    <a:updated>2015-11-28T00:00:00Z</a:updated>
+    <a:published>2015-11-28T00:00:00Z</a:published>
     <a:title>io7m-jareas 0.1.0 released</a:title>
     <a:content type="text"> io7m-jareas 0.1.0 released </a:content>
   </a:entry>
