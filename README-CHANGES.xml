@@ -3,6 +3,16 @@
   <c:project>io7m-jareas</c:project>
 
   <c:release c:ticket-system="com.github.io7m.jareas">
+    <c:date>2016-05-29</c:date>
+    <c:version>0.2.1</c:version>
+    <c:item>
+      <c:date>2016-05-29</c:date>
+      <c:type-code-fix/>
+      <c:summary>Update to immutables 2.2.1</c:summary>
+    </c:item>
+  </c:release>
+
+  <c:release c:ticket-system="com.github.io7m.jareas">
     <c:date>2015-11-28</c:date>
     <c:version>0.2.0</c:version>
     <c:item>
