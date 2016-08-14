@@ -7,7 +7,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.io7m.jareas</groupId>
   <artifactId>io7m-jareas</artifactId>
-  <version>0.2.0</version>
+  <version>0.2.1</version>
 
   <packaging>pom</packaging>
   <name>io7m-jareas</name>
