@@ -12,7 +12,7 @@
   </parent>
   <artifactId>io7m-jareas-core</artifactId>
 
-  <packaging>jar</packaging>
+  <packaging>bundle</packaging>
   <name>io7m-jareas-core</name>
   <description>Area types (Core)</description>
   <url>http://io7m.github.io/jareas/</url>
@@ -36,6 +36,7 @@
       <groupId>com.io7m.junsigned</groupId>
       <artifactId>io7m-junsigned-ranges</artifactId>
     </dependency>
+
     <dependency>
       <groupId>org.immutables</groupId>
       <artifactId>value</artifactId>
@@ -68,6 +69,18 @@
         <configuration>
           <!-- Prevents an endPosTable exception during compilation -->
           <useIncrementalCompilation>false</useIncrementalCompilation>
+        </configuration>
+      </plugin>
+
+      <!-- Produce OSGi bundle -->
+      <plugin>
+        <groupId>org.apache.felix</groupId>
+        <artifactId>maven-bundle-plugin</artifactId>
+        <extensions>true</extensions>
+        <configuration>
+          <instructions>
+            <Export-Package>com.io7m.jareas.core</Export-Package>
+          </instructions>
         </configuration>
       </plugin>
     </plugins>
