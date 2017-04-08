@@ -7,13 +7,13 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>com.io7m.jareas</groupId>
-    <artifactId>io7m-jareas</artifactId>
-    <version>0.2.1</version>
+    <artifactId>com.io7m.jareas</artifactId>
+    <version>0.2.2</version>
   </parent>
-  <artifactId>io7m-jareas-core</artifactId>
+  <artifactId>com.io7m.jareas.core</artifactId>
 
   <packaging>bundle</packaging>
-  <name>io7m-jareas-core</name>
+  <name>com.io7m.jareas.core</name>
   <description>Area types (Core)</description>
   <url>http://io7m.github.io/jareas/</url>
 
@@ -26,15 +26,15 @@
   <dependencies>
     <dependency>
       <groupId>com.io7m.jnull</groupId>
-      <artifactId>io7m-jnull-core</artifactId>
+      <artifactId>com.io7m.jnull.core</artifactId>
     </dependency>
     <dependency>
       <groupId>com.io7m.jranges</groupId>
-      <artifactId>io7m-jranges-core</artifactId>
+      <artifactId>com.io7m.jranges.core</artifactId>
     </dependency>
     <dependency>
       <groupId>com.io7m.junsigned</groupId>
-      <artifactId>io7m-junsigned-ranges</artifactId>
+      <artifactId>com.io7m.junsigned.ranges</artifactId>
     </dependency>
 
     <dependency>

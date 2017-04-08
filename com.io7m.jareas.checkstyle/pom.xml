@@ -7,13 +7,13 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>com.io7m.jareas</groupId>
-    <artifactId>io7m-jareas</artifactId>
-    <version>0.2.1</version>
+    <artifactId>com.io7m.jareas</artifactId>
+    <version>0.2.2</version>
   </parent>
-  <artifactId>io7m-jareas-checkstyle</artifactId>
+  <artifactId>com.io7m.jareas.checkstyle</artifactId>
 
   <packaging>jar</packaging>
-  <name>io7m-jareas-checkstyle</name>
+  <name>com.io7m.jareas.checkstyle</name>
   <description>Area types (Checkstyle policy)</description>
   <url>http://io7m.github.io/jareas/</url>
 
@@ -26,7 +26,7 @@
   <dependencies>
     <dependency>
       <groupId>com.io7m.jnull</groupId>
-      <artifactId>io7m-jnull-core</artifactId>
+      <artifactId>com.io7m.jnull.core</artifactId>
     </dependency>
   </dependencies>
 
